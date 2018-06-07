@@ -16,3 +16,19 @@ Features:
 - Instrument View : AH, Satelite, Altimeter, Heading, Speed, Baterai Indikator, Servo Signal Viewer.
 
 First Created in 2011 By Swadexi Istiqphara
+
+dXUAV Schematic:
+
+![alt text](http://4.bp.blogspot.com/-QaaWhANysEM/TuH9ANYWAlI/AAAAAAAAATI/m-yVK5pXHLM/s1600/uav.JPG)
+
+
+dxUAV Board Printed:
+
+Bottom View:
+
+![alt text](http://1.bp.blogspot.com/-ZLwu60rtg8A/TwFPqu8Gd2I/AAAAAAAAATw/twinVWCdEeo/s320/bottom.png)
+
+
+Top VIew:
+
+![alt text](http://4.bp.blogspot.com/-pAl932U0U_k/TwFQDWXcJCI/AAAAAAAAAT8/NXREVzwCl8Q/s320/top.png)
