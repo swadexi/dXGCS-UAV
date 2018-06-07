@@ -1,0 +1,54 @@
+ map.addControl(new GLargeMapControl());
+	  var mapControl = new GMapTypeControl();
+        map.addControl(mapControl); 
+        getData();   
+       }
+     }
+   function getData(){
+	if (GBrowserIsCompatible()) {		         
+         var bounds = map.getBounds();
+         var southWest = bounds.getSouthWest();	
+         var northEast = bounds.getNorthEast();
+	   var centernya = bounds.getCenter();
+         var GZ = map.getZoom() + '';
+         var lngSpan = northEast.lng() - southWest.lng();
+         var latSpan = northEast.lat() - southWest.lat(); 
+        
+	 link1 =  northEast.lat() + '';
+       link2 = southWest.lng()  + '' ;
+	 var centerlat = centernya.lat() + '';
+	 var centerlon = centernya.lng() + '';	   
+       var pxLat = latSpan / 600 + '';	
+	 var pxLng = lngSpan / 640 + '';
+         
+	 var l1length = link1.length;
+	 var l2length = link2.length;
+	 var cLat = centerlat.length;
+	 var clon = centerlon.length;
+	 var pxlatlength = pxLat.length;
+	 var pxlonlength = pxLng.length;
+ 	 var GZlength = GZ.length;
+
+      if (l1length.length < 2){l1length = '0' + l1length; }
+	if (l2length.length < 2){l2length = '0' + l2length; }
+	if (pxlatlength.length < 2){ pxlatlength = '0' + pxlatlength;}
+	if (pxlonlength.length < 2){ pxlonlength = '0' + pxlonlength;}
+	if (GZlength.length = 1){ GZlength  = '0' + GZlength;}
+	if (cLat.length < 2){cLat = '0' + cLat ; }
+	if (clon .length < 2){clon = '0' + clon ; }
+
+        xLink = ''+ l1length + l2length + pxlatlength + pxlonlength + GZlength + cLat + clon + link1 + link2  + pxLat + pxLng + GZ + centerlat+ centerlon;
+ ;
+	 statwords(xLink);
+}}     
+ function statwords(message){
+ window.status = xLink; }
+     </script>
+   </head>
+   <body onload="initialize()" style="font-family: Arial;border: 0 none;">
+	   <body onClick="getData()" onMouseMove="getData()" onMouseOut="getData()" >
+
+
+     <div id="map_canvas" style="width: 800px; height: 600px"></div>
+   </body>
+ </html>
