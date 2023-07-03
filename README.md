@@ -21,6 +21,7 @@ dXUAV Schematic:
 
 ![alt text](http://4.bp.blogspot.com/-QaaWhANysEM/TuH9ANYWAlI/AAAAAAAAATI/m-yVK5pXHLM/s1600/uav.JPG)
 
+![image](https://github.com/swadexi/dXGCS-UAV/assets/11549422/eba99496-13cd-4bfe-bc6b-2f7570c2f5c6)
 
 dxUAV Board Printed:
 
